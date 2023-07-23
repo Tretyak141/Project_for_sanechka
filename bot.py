@@ -7,7 +7,7 @@ from aiogram.contrib.middlewares.logging import LoggingMiddleware
 import os
 
 
-tok = '6276375360:AAFWjPRsdTR6EGQd3TgpRa1W-wbfJBqcjMI'
+tok = '***'
 bot = Bot(token=tok)
 dp = Dispatcher(bot,storage=MemoryStorage())
 dp.middleware.setup(LoggingMiddleware())
